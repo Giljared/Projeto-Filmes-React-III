@@ -1,25 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './Styles/global.css'
+import Routes from './Routes/Routes'
+//import Apresentacao from './Services/Apresentacao'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div>   
+      {/* <Apresentacao/>  */}
+      <Routes/>  
+
+    </div>   
+
+    
+  )
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import Filmes from './Pages/Filmes';
+// import Apresentacao from './Pages/Apresentacao';
+// import Home from './Pages/Home';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// import './Styles/global.css'
+
+// function App() {
+//   return (
+//     <>
+//     <BrowserRouter>
+//       <Switch>
+//       <Route exact path="/" render={ props => <Home {...props} /> }/>
+//       <Route path="/filmes" render={ props => <Filmes {...props} /> }/>
+//       <Route path="/apresentacao" render={ props => <Apresentacao {...props} /> }/>
+//     </Switch>
+//     </BrowserRouter>
+//     </>
+    
+
+//   );
+// }
+  
+// export default App
