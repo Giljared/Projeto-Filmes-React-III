@@ -30,9 +30,9 @@ const Perfis = () => {
 
                         <div className="card-perfis">
 
-                            <h3>{perfil.nome}</h3>
-                            <p>{perfil.descricao}</p>
-                            
+                            <h2>{perfil.nome}</h2>
+                            <p> Desenvolvedora Front-End (Html, CSS, Java Script & React) - Graduada em Mátemática e Pós-graduanda em Docência do Ensino Superior. {perfil.descricao}</p>
+                                                        
                             <a href={perfil.linkedin} alt="clique" rel="noopener noreferrer" target="_blank">Linkedin</a>
 
                             <a href={perfil.github} alt="clique" rel="noopener noreferrer" target="_blank">Github</a>
