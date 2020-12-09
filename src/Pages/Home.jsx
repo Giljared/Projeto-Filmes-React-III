@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-// import Perfil from "../Services/perfil"
+import Perfis from "../Services/perfis"
 import '../Styles/Pages/home.css';
 
 
@@ -13,8 +13,8 @@ function Home() {
           <h1>Quer saber meus filmes favoritos?</h1>
           <p>Então, vem comigo! Cada um deles representa uma fase e emoções vividas.</p>
 
-          <Link to="/sobre" >
-            <button className="btn-1">Sobre mim</button>
+          <Link to="/perfis" >
+            <button className="btn-1">Meu Perfil</button>
           </Link>
 
         </main>

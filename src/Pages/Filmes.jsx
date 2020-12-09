@@ -3,7 +3,7 @@ import '../Styles/Pages/filmes.css'
 import Sidebar from '../Components/Sidebar'
 //import Busca from '../Components/Busca'
 import BuscaFiltro from '../Components/BuscaFiltro'
-import perfil from '../Services/perfil'
+import perfil from '../Services/perfis'
 
 const Filmes = () => {
 

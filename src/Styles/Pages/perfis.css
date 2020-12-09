@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 
-.card-perfil{
+.card-perfis{
     width: 300px;
     margin: 30px 30px 30px 120px;
     display: flex;
@@ -18,16 +18,16 @@
     text-align: center;
 }
   
-.card-perfil h3 {
+.card-perfis h3 {
     color: #4f2158;
 }
 
-.card-perfil p{
+.card-perfis p{
     font-weight: 100;
     color: #4f2158
 }
 
-.card-perfil img{
+.card-perfis img{
     border-radius: 20px;
     margin-bottom: 20px;
     max-width: 200px;

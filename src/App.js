@@ -1,13 +1,13 @@
 
 import './Styles/global.css'
 import Routes from './Routes/Routes'
-//import Apresentacao from './Services/Apresentacao'
+
 
 function App() {
 
   return (
     <div>   
-      {/* <Apresentacao/>  */}
+      
       <Routes/>  
 
     </div>   
