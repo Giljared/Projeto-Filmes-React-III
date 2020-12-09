@@ -69,3 +69,15 @@
 .content-wrapper .enter-app:hover {
 	background: #96feff;
 }
+.btn-1{
+	padding: 10px;
+	background:  #d87111fb;
+    border-radius: 10px;
+}
+.btn-1:hover{
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	background:#ED9DCA;
+	transform: scale(1.1);
+}

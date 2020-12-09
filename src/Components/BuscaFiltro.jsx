@@ -1,12 +1,14 @@
 import React from 'react'
 import '../Styles/Pages/buscafiltro.css'
 
-const BuscaFiltro = () => {
+
+const BuscaFiltro = (props) => {
     return (
         <div className="busca">
             <input type="text"
-                placeholder="Meus Filmes favoritos"
-                text-align left />
+                placeholder="Busca aqui..."
+                onChange={props.handleOnChance}
+                text-align center />
         </div>
 
     )
