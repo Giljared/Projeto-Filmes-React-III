@@ -2,7 +2,7 @@
     padding: 2rem;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(329.54deg, #685b67 0%, #4f2158 100%);
+	background: linear-gradient(329.54deg, #5b6868 0%, #e7e696 100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -58,7 +58,7 @@
 	bottom: 0;
 	width: 80px;
 	height: 80px;
-	background: #ffd666;
+	background: #ff66f2;
 	border-radius: 30px;
 	display: flex;
 	align-items: center;
@@ -67,7 +67,7 @@
 }
 
 .content-wrapper .enter-app:hover {
-	background: #96feff;
+	background: #e6e214;
 }
 .btn-1{
 	padding: 10px;
