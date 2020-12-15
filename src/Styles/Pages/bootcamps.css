@@ -1,4 +1,16 @@
+.div-busca{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.busca{
+    text-align: center;
+    align-items: center;
+}
 
+input{
+    text-align: center;
+}
 #container{
     display: flex;
     align-items: center;
@@ -22,7 +34,7 @@
     height: 100%;
 }
 
-.card-filmes{
+.card-bootcamps{
     width: 300px;
     margin: 30px 30px 30px 120px;
     display: flex;
@@ -35,16 +47,16 @@
     text-align: center;
 }
   
-.card-filmes h3 {
+.card-bootcamps h3 {
     color: #2c0733;
 }
 
-.card-filmes p{
+.card-bootcamps p{
     font-weight: 100;
     color: #051a1b
 }
 
-.card-filmes img{
+.card-bootcamps img{
     border-radius: 20px;
     margin-bottom: 20px;
     max-width: 200px;

@@ -23,13 +23,11 @@ const Perfis = () => {
             <Sidebar />
             <BuscaFiltro handleOnChance={handleOnChance} />
 
-            <div className="video">
 
-            </div>
 
             <div id="container">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/s9OQgsOOOI0" frameborder="0" allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture" allowfullscreen></iframe>
+
 
 
                 {perfisFiltrados.map((perfil) => {
@@ -38,8 +36,12 @@ const Perfis = () => {
 
                         <div className="card-perfis">
 
+                            <div className="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LiSnzK3MXfw" frameborder="0" allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
                             <h2>{perfil.nome}</h2>
-                            <p> Desenvolvedora Front-End (Html, CSS, Java Script & React) - Graduada em Mátemática e Pós-graduanda em Docência do Ensino Superior. {perfil.descricao}</p>
+                            <p> Desenvolvedora Front-End (Html, CSS, Java Script e React) - Graduada em Mátemática e Pós-graduanda em Docência do Ensino Superior. {perfil.descricao}</p>
 
                             <a href={perfil.linkedin} alt="clique" rel="noopener noreferrer" target="_blank">Linkedin</a>
 
@@ -51,9 +53,9 @@ const Perfis = () => {
 
                             <img src={perfil.foto} alt="foto" />
 
-                            </div>
+                        </div>
 
-                        
+
                     );
                 })}
 

@@ -1,8 +1,8 @@
 #page-landing {
-    padding: 2rem;
-	width: 100vw;
-	height: 100vh;
-	background: linear-gradient(329.54deg, #5b6868 0%, #e7e696 100%);
+    padding: 0rem;
+	/* width: 100vw;
+	height: 200vh; */
+	background: linear-gradient(329.54deg, #195f64e0 100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,7 +12,7 @@
 	position: relative;
 	width: 100%;
 	max-width: 1100px;
-	height: 100%;
+	height: 200%;
 	max-height: 680px;
 	display: flex;
 	align-items: flex-start;
@@ -20,11 +20,12 @@
 	justify-content: space-between;
 	
     background: url('../../Assets/minhaFoto.png') no-repeat 80% center;
-    background-size: 500px;
+    background-size: 400px;
 }
 
 #page-landing .content-wrapper main {
 	max-width: 350px;
+	padding-top: 10px;
 }
 
 #page-landing .content-wrapper main h1 {
@@ -58,7 +59,7 @@
 	bottom: 0;
 	width: 80px;
 	height: 80px;
-	background: #ff66f2;
+	background: #66e8ff;
 	border-radius: 30px;
 	display: flex;
 	align-items: center;
@@ -67,9 +68,11 @@
 }
 
 .content-wrapper .enter-app:hover {
-	background: #e6e214;
+	background: #71acc3;
 }
 .btn-1{
+	/* position: relative;
+	display: flex; */
 	padding: 10px;
 	background:  #d87111fb;
     border-radius: 10px;
@@ -78,6 +81,36 @@
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 10px;
-	background:#ED9DCA;
+	background:#ca0c2b;
+	transform: scale(1.1);
+}
+
+.btn-2{
+	/* position: relative;
+	display: flex; */
+	padding: 10px;
+	background:  #d811b7fb;
+    border-radius: 10px;
+}
+.btn-2:hover{
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	background:#0cca0c;
+	transform: scale(1.1);
+}
+
+.btn-3{
+	/* position: relative;
+	display: flex; */
+	padding: 10px;
+	background:  #d82f11fb;
+    border-radius: 10px;
+}
+.btn-3:hover{
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	background:#97ca0cef;
 	transform: scale(1.1);
 }

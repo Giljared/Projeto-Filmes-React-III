@@ -1,9 +1,8 @@
 import filmes from '../Services/dados'
 import '../Styles/Pages/filmes.css'
 import Sidebar from '../Components/Sidebar'
-//import Busca from '../Components/Busca'
 import BuscaFiltro from '../Components/BuscaFiltro'
-import perfil from '../Services/perfis'
+// import perfil from '../Services/perfis'
 
 const Filmes = () => {
 

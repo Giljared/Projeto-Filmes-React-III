@@ -18,8 +18,22 @@
     align-items: center;
     text-align: center;
 }
+
+/* .video{
+
+    width: 300px;
+    margin: 30px 30px 30px 30px;
+    /* max-width: 200px;
+    max-height: 200px; */
+/* 
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #03033d;
+    border-radius: 20px;; 
+    
+} */ */
   
-.card-perfis h3 {
+.card-perfis h3{
     color: #2c0733;
 }
 

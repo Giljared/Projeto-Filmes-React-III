@@ -10,18 +10,38 @@ function Home() {
     <div id="page-landing">
       <div className="content-wrapper">
         <main>
-          <h1>Quer saber meus filmes favoritos?</h1>
-          <p>Então, vem comigo! Cada um deles representa uma fase e emoções vividas.</p>
+          <h1>Favorites times for me</h1>
 
+          <div className="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CZneEDUHdZI" frameborder="0" allow="accelerometer autoplay clipboard-write encrypted-media gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div>
           <Link to="/perfis" >
-            <button className="btn-1">Meu Perfil</button>
+            <button className="btn-1">My Profile</button>
           </Link>
+
+          <Link to="/course" >
+            <button className="btn-2">Course</button>
+          </Link>
+
+          <Link to="/bootcamp" >
+            <button className="btn-3">Programação</button>
+          </Link>
+          </div>
+          <div className="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NA4srP35Maw" frameborder="0" allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
 
         </main>
 
+        
         <Link to="/filmes" className="enter-app">
           <FiArrowRight size={26} color="rgba(0, 0 , 0, 0.6)" />
         </Link>
+       
+        
       </div>
     </div>
   );
